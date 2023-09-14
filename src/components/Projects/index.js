@@ -9,28 +9,28 @@ const Projects = () => {
   const projects = [
     {
       img: devlog,
-      title: "devlog",
+      title: "Previous Website",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
       live: "https://sinavahidi.dev",
       code: "https://github.com/Sinaswrld/PortfolioSV",
     },
     {
       img: uilogs,
-      title: "uilogs",
+      title: "This Website",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
-      live: "https://sinavahidi.dev",
-      code: "https://github.com/Sinaswrld/PortfolioSV",
+      live: "http://localhost:3000/",
+      code: "https://github.com/Sinaswrld/NewWeb",
     },
     {
       img: cssProjects,
-      title: "css projects",
+      title: "Another Project",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
       live: "https://sinavahidi.dev",
       code: "https://github.com/Sinaswrld/PortfolioSV",
     },
     {
       img: getInspirred,
-      title: "get Inspirred",
+      title: "Another Project",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
       live: "https://sinavahidi.dev",
       code: "https://github.com/Sinaswrld/PortfolioSV",
@@ -62,8 +62,11 @@ const Projects = () => {
                 alt={project.title}
                 className="rounded-lg"
               />
-              <div className="flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[90%] h-[90%]  bg-primary  opacity-0 duration-500 justify-center flex-col hover:opacity-100 ">
-                <p className="py-5 text-center font-bold px-2 text-white">
+              <div className="flex absolute left-0 right-0 top-[21px] sm:top-[40px] md:top-[16px] lg:top-[20px] xl:top-[26px] 2xl:top-[32px] bottom-0 mx-auto w-[90%] h-[90%]  bg-primary  opacity-0 duration-500 justify-center flex-col hover:opacity-100 ">
+                <h3 className="text-center font-bold text-white text-xl lg:text-3xl">
+                  {project.title}
+                </h3>
+                <p className="py-3 pb-7 lg:py-5 lg:pb-5 text-center lg:font-bold px-3 lg:px-2 text-white">
                   {project.desc}
                 </p>
 

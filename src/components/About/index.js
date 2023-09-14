@@ -19,7 +19,7 @@ const About = () => {
             About Me
           </h2>
 
-          <p className="pb-5">
+          <p className="pb-5 sm:pr-2 lg:pr-0">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
