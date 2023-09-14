@@ -20,7 +20,7 @@ const Hero = () => {
             I am proficient in nasty farts, wet food, and the zoomies
           </p>
           <div className="flex justify-center md:justify-left flex-row md:flex-col">
-            <div className="flex py-5 justify-center md:justify-auto">
+            <div className="flex py-5 justify-center md:justify-start">
               <a
                 href="https://www.linkedin.com/in/sina-vahidi/"
                 className="pr-4 inline-block text-accent hover:text-white transition-all duration-300"
@@ -36,7 +36,7 @@ const Hero = () => {
                 <AiOutlineGithub size={50} />{" "}
               </a>
             </div>
-            <div className="flex justify-center md:justify-left py-5 md:py-0">
+            <div className="flex justify-center md:justify-start py-5 md:py-0">
               <a
                 href="/#projects"
                 className="btn bg-accent  border-2 border-[#7477FF] text-white px-3 py-3 hover:bg-transparent hover:text-[#7477FF] rounded transition-all duration-300"
@@ -47,7 +47,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="hero-img w-1/2 place-self-center">
+        <div className="hero-img md:w-1/2 place-self-center">
           <img
             src={HeroImg}
             alt="coding illustration"
