@@ -1,0 +1,29 @@
+@import 'animate.css';
+/* Import the base styles */
+@import 'tailwindcss/base';
+/* Import the component styles */
+@import 'tailwindcss/components';
+/* Import the utility styles */
+@import 'tailwindcss/utilities';
+
+/* color */
+.bg-primary {
+  background: #0F172A;
+}
+
+.bg-secondery {
+  background: #1E293B;
+}
+
+.bg-accent {
+  background: #7477FF;
+}
+
+.text-accent {
+  color: #7477FF;
+} 
+
+html {
+  scroll-behavior: smooth;
+}
+

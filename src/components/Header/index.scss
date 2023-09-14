@@ -1,0 +1,11 @@
+.mobile-nav {
+  @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
+} 
+
+nav li a {
+  @apply px-4 text-xl font-bold transition-all duration-200;
+}
+
+nav li a:hover {
+  color: #7477FF;
+}
